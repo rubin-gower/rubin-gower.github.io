@@ -1,4 +1,4 @@
 function start() {
-	alert("js connected")
+	console.log("js connected")
 	
 }
