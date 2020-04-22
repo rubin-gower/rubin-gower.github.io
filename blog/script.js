@@ -7,8 +7,8 @@ function notready() {
 	
 }
 function easteregg() {
-
-wait = setInterval(rainbow,100);
+console.log("runing easter egg")
+wait = setInterval(rainbow,200);
 
 }
 function rainbow() {
@@ -20,3 +20,6 @@ document.getElementById("thetitle").style.color = "rgb(" + red + "," + blue + ",
 }
 	var wait = 0; 
 
+function stop() {
+	clearInterval(wait) 
+}
