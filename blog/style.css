@@ -1,11 +1,38 @@
+/* width */
+::-webkit-scrollbar {
+  width: 30px;
+
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+
+
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: url(imgs/anchor.png);
+  background-size: 30px;
+  background-repeat: no-repeat;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: url(imgs/anchor.png);
+  background-size: 30px;
+  background-repeat: no-repeat;
+}
 body {
 	color: black;
 	background-image: url(imgs/background.jpg); 
 	background-repeat: none;
 	background-size: 100%;
 	margin: 0px;
+	height: 2650px;
 
 }
+
 #slideshow {
 	background-color: black;
 	width: 80%;
@@ -17,7 +44,7 @@ body {
 	margin-top: 50px;
 	background-color: rgba(153, 115, 252, 0.3);
 	width: 80%;
-	height: 2300px;
+	height: 800px;
 	border-radius: 0px 30px 30px 30px;
 	
 	margin-bottom: 50px;
