@@ -22,4 +22,5 @@ document.getElementById("thetitle").style.color = "rgb(" + red + "," + blue + ",
 
 function stop() {
 	clearInterval(wait) 
+	document.getElementById("thetitle").style.color = "black";
 }
