@@ -1,25 +1,29 @@
 body {
 	color: black;
-	background-color: gray;
+	background-image: url(imgs/background.jpg); 
+	background-repeat: none;
+	background-size: 100%;
 	margin: 0px;
+
 }
 #slideshow {
-	background-color: red;
+	background-color: black;
 	width: 80%;
 	height: 300px;
 	border-radius: 30px 30px 0px 0px;
 	margin-top: 50px;
 }
 #mainpage {
-	background-color: rgb(233, 235, 242);
+	margin-top: 50px;
+	background-color: rgba(153, 115, 252, 0.3);
 	width: 80%;
-	height: 600px;
-	border-radius: 0px 0px 30px 30px;
-	box-shadow: 10px 10px 5px #888888;
+	height: 800px;
+	border-radius: 0px 30px 30px 30px;
+	
 	margin-bottom: 50px;
 }
 .title {
-	background-color: green;
+	background-color: rgb(87, 117, 217);
 	width: 250px;
 	height: 70px;
 	border-radius: 0px 30px 0px 30px;
@@ -32,12 +36,14 @@ body {
 	background-color: blue;
 	width: 100%;
 	height: 250px;
+	border-radius: 10px 10px 0px 0px;
 }
 .blogtitle {
 	color: black;
 	background-color: white;
 	width: 100%;
 	height: 285px;
+	border-radius: 10px 10px 10px 10px;
 
 }
 .bloglink {
@@ -47,7 +53,7 @@ body {
 	box-shadow: 5px 5px 10px black;
 	transition: all .1s ease-in-out; 
 	text-decoration: none;
-	
+	border-radius: 10px 10px 10px 10px;
 
 }
 .bloglink:hover {
