@@ -2,26 +2,26 @@ html {
 	scroll-behavior: smooth;
 }
 /* width */
-::-webkit-scrollbar {
+body::-webkit-scrollbar {
   width: 30px;
-
 }
 
 /* Track */
-::-webkit-scrollbar-track {
+body::-webkit-scrollbar-track {
 
 
 }
  
 /* Handle */
-::-webkit-scrollbar-thumb {
+body::-webkit-scrollbar-thumb {
   background: url(imgs/anchor.png);
   background-size: 30px;
   background-repeat: no-repeat;
+  height: 10px;
 }
 
 /* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
+body::-webkit-scrollbar-thumb:hover {
   background: url(imgs/anchor.png);
   background-size: 30px;
   background-repeat: no-repeat;
@@ -133,18 +133,18 @@ position: relative;
 #week1page {
 	margin: 50px;
 	margin-top: 70px;
-	background-color: rgba(253, 255, 252, 0.7);
+	background-color: rgba(253, 255, 252, 0.8);
 	width: 80%;
 	height: 395px;
 	border-radius: 0px 30px 30px 30px;
 	margin-bottom: 50px;
-
+	overflow: auto;
 }
 #week2page {
 	margin-top: 70px;
-	background-color: rgba(253, 255, 252, 0.7);
+	background-color: rgba(253, 255, 252, 0.8);
 	width: 80%;
-	height: 145px;
+	height: 745px;
 	border-radius: 0px 30px 30px 30px;
 	margin-bottom: 50px;
 
@@ -166,4 +166,25 @@ position: relative;
 	margin: auto;
 	width: 90%;
 	height: 90%;
+}
+#scrollexamp {
+	width: 150px;
+	height: 150px;
+	background-color: white;
+	overflow: auto;
+	text-align: left;
+	float: right;
+	margin-right: 100px;
+}
+#text1 {
+	float: left;
+	padding-left: 50px;
+	font-size: 20px;
+}
+#text2 {
+	font-size: 20px;
+	float: left;
+	padding-left: 50px;
+	width: 500px;
+	text-align: left;
 }

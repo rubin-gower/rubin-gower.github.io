@@ -24,3 +24,14 @@ function stop() {
 	clearInterval(wait) 
 	document.getElementById("thetitle").style.color = "black";
 }
+function diffrent() {
+	if (toggle==0) {
+	document.getElementById("scrollexamp").style.overflow = "visible";
+	toggle++;
+	}
+	else if(toggle > 0) {
+		document.getElementById("scrollexamp").style.overflow = "auto";
+		toggle = 0;
+	}
+}
+var toggle = 0;
