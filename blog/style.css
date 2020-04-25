@@ -70,12 +70,15 @@ body {
 }
 .blogtitle {
 	color: black;
-	
 	width: 100%;
 	height: 40px;
 	border-radius: 10px 10px 10px 10px;
 	padding-top: 10px;
 	padding-bottom: 10px;
+}
+.blogtitle p {
+	position: relative;
+	bottom: 25px;
 }
 .bloglink {
 	width: 18%;
@@ -101,8 +104,8 @@ h3 {
 	bottom: 10px;
 }
 p {
-	position: relative;
-	bottom: 25px;
+	
+	
 
 }
 
@@ -187,4 +190,19 @@ position: relative;
 	padding-left: 50px;
 	width: 500px;
 	text-align: left;
+}
+.basicbutton {
+	margin-top: 30px;
+	background-color: #02ccf5;
+	box-shadow: 5px 5px 10px black;
+	color: black;
+	width: 100px;
+	height: 40px;
+	border-radius: 10px 10px 10px 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-decoration: none;
+}
+#thetitle {
+	width: 400px;
 }
