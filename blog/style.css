@@ -229,7 +229,16 @@ position: relative;
 	margin-top: 70px;
 	background-color: rgba(253, 255, 252, 0.8);
 	width: 80%;
-	height: 1645px;
+	height: 1045px;
+	border-radius: 0px 30px 30px 30px;
+	margin-bottom: 50px;
+
+}
+#week42page {
+	margin-top: 70px;
+	background-color: rgba(253, 255, 252, 0.8);
+	width: 80%;
+	height: 1045px;
 	border-radius: 0px 30px 30px 30px;
 	margin-bottom: 50px;
 
