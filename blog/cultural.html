@@ -43,10 +43,10 @@
       </h3><p>4/5/2020</p></div>
     </a>
     <!-- blog 5 -->
-    <a href="#not_ready" class="bloglink" onclick="notready()" id="blognotready">
+    <a href="#sprint5" class="bloglink" id="blogready">
      <div class="blogtitle">
       <h3>Sprint 5 Core
-      </h3><p>not available</p></div>
+      </h3><p>16/5/2020</p></div>
     </a>
 
 
@@ -223,112 +223,21 @@
 
     </div>
   </div>
-  <a name="sprint4"></a><div id="week43page">
-  <div class="title2" "><h1>Sprint Four?<h1></div>
+  <a name="sprint5"></a><div id="week1page">
+  <div class="title2" "><h1>Sprint Five<h1></div>
     <div class="content">
       <h1>learning reflections</h1>
-
-<h2># Code Readability Primer<h2>
-<p><h3>### What code readability habit will you begin implementing today?</h3>
-The main part of readability i want to add to my code is the indenting as i have a bad habit of not doing it and my code is unreadable</p>
-
-<p><h3>### Does code readability seem important to you, or unnecessarily fussy? Justify your answer.</h3>
-It's important to make your code readable as code needs to be read back by you and others.
-Ways to make it readable is to make the variables and function names understandable so you know what they are rather than just x. It also helps to comment on code that way anyone reading the code can tell what you're trying to do. Formatting your code right with indenting to make it easier on the eye to see what goes where.</p>
-
-<h2># Code Readability Challenge</h2>
-<p><h3>### As a developer, how important do you think indenting is?</h3>
-I used to not do it but i find it much easier to read my own code now that i have started and some languages u have to do it or the code gets confused</p>
-
-<p><h3>### Do you prefer tabs or spaces when indenting?</h3>
-I prefer tabs as its nice easily making it inline and spaced enough to see</p>
-
-<p><h3>### What is your workspace like in real life? Clean? Messy? Is your code a reflection of that? Is your _downloads_ folder a reflection of that?</h3>
-I like to keep my work space clean in real life but as for my computer its always been a complete mess and my computer struggles with all the desktop icons i have.</p>
-
-<p><h3># Testing
-
-```
-function testSum(){
-var expected = 7
-var actual = sum(5, 2)
-
-if (actual != expected) {
-console.log("It's broken..")
-} else {
-console.log("It works!")
-}
-}
-```
-
-Have a go at writing a function below that would make the above function print out `"It works!"`:</h3> 
-function sum(x, y) {
-return x + y
-}
-
-<p><h3>### Do you think you would prefer using Unit Testing or Test Driven Development? Why?</h3>
-Probably test driven as i know more about it </p>
-
-<p><h3>### How could these techniques be used together to make code that is reliable?</h3>
-Unit testing is useful as your testing small parts of your program as to no go too far on in your program to realize it doesn't work. Test driven or more for the final product to make sure it works</p>
-
-<p><h3>### Was your initial response to the idea of testing, "That sounds useful" or "That sounds like a hassle"? Why?</h3>
-I find testing useful as without it it would be almost impossible to code but i really didn't like the test driven development as i found myself wring segiti code just to fit requirements rather than make the code clean and smart</p>
-
-<p><h3># Repl.it - Code in your browser
-### What was your first impression of the Repl.it website?</h3>
-At first i found it really useful until i came across a bug where my code won't run and wouldn't update which made it really hard. I also found it hard to tell what was going on because i couldn't clear the console so i ended up doing most of it in my own editor</p>
-
-<p><h3>### How did you find using it in practice? Confusing? Useful?</h3>
-I was nice to have that layout as it was so easy to make changes and see them </p>
-
-<p><h3>### When you say the name of the website in your head, how are you pronouncing it? "REPLIT"? "REP-ILL-IT"? "REPELL-IT"?</h3>
-rep-ill-it</p>
-
-<h2># Problem Solving and Pseudocode </h2>
-<p><h3>### Pick two problem solving techniques you would like to put into practice. Which ones have you chosen?</h3>
-I like the rubber ducky method and googling as if its a technical problem i can google and if its a logic problem then i use the rubber ducky</p>
-
-<p><h3>### How will you implement these techniques into your day to day coding flow? How will you make sure that you actually do them?</h3>
-I have already got use to the googling method but i still find rubber ducky word as i normally just call a friend over and that's how i use it</p>
-
-<h2># JavaScript Variables and Object Types</h2>
-<p><h3>### How did you find working through the Variables and Objects kata?</h3>
-I found this one super easy and had it done it 20 mins</p>
-
-<p><h3>### Did you look at the tests while coding the kata? Was it helpful?</h3>
-I found it easy to go though the test and get four to pass at once</p>
-
-<h2># Manipulating JavaScript Objects</h2>
-<p><h3>### What was the highlight of this kata for you?</h3>
-I did struggle at one point with the syntax of objects inside objects and took a while to figure out</p>
-
-<p><h3>### Did you find you preferred following the steps given to you or using the test outputs in your repl? Why?</h3>
-I liked to just see the output and then focus on the next task</p>
-
-
-<h2># FizzBuzz (Super Edition)</h2>
-<p><h3>### What was the most challenging part of Super FizzBuzz for you?</h3>
-As normal as fix buzz was i struggled on this one the most as i would have coded it a different way and got really confused at the way the test driven development was trying to guide me</p>
-
-<p><h3>### How did you find using pseudocode during this kata?</h3>
-Very difficult as i realized i would have done it a different way and following the code was hard</p>
-
-<h2># JavaScript Gradebook</h2>
-<p><h3>### What was a surprising moment for you in this Gradebook Kata?</h3>
-I was surprised how easy it was to add to arrays as in other languages i have tried i have always thought that simple task was far too complicated</p>
-
-<p><h3>### Did you go back and rewrite code as you got to new steps? Is there anything you would change about your final code?</h3>
-I did a lot of rewriting as I struggled to see the directness the test was trying to go. I didn't like making a much of functions to help other functions as it seems like expanding the code for no reason</p>
-
-<h2># Built-in Methods</h2>
-<p><h3>### On a scale of 1 - 5, 5 means 'These built in methods are hard!' and 1 means 'Built in methods are easy.  Piece of cake' - how are you feeling following this Built-In-Methods kata? </h3>
-3 i found it good as there was plenty to learn and i feel i have only scratched the surface but the syntax allwasys confused for for each one</p>
-
-<p><h3>### What resources did you use to help you? How useful did you find them?</h3>
-For the built in methods i watched a lot of youtube videos about each one as i find it easier to follow when i have someone doing it infront of me to understand it</p>
+<p><b>What are three new things you have learned about yourself and your ego as a result of the core learning?</b>its ok to ask for help. I try ask for as little help as possible as i find that it dosnt let you understand somthing fully. but i did get stuck and it was better to ask for help rather than turn to spegie code. i allso found its much better to try have fun with your code as normaly i lose focus but when i was enjoying it i could keep focused.</p>
+<p><b>What are the role of values, empathy and self awareness in learning and programming?</b>after making a database for my minesweeper i found out how easyly someone could make a malitus program to try steal information to there computer so i think its important to stay ethical</p>
+<p><b>What has surprised you the most about the core learning?</b>its good to have fun with your code and take it in your own direction as i did int he minesweeper task</p>
+<p><b>What were the most challenging aspects of the core learning?</b>it realy sucks when you get stuck as i would offen just tell myself i would do it tommrow and the tasks would stuck up and i wouldnt have fun. you just have to push though</p>
+<p><b>Why do you think we, a programming school, are spending so much time focusing on core learning in a web development bootcamp course?</b>core is important as it allows you to refect and think about what you have achived and ways you could have done it better</p>
+<p><b>Does the time you spent studying core learning here feel like a waste of time? Should you have just used that time to practicing programming instead? Justify your answer. </b>i do feel like i should be spending more time programing as i done fined core rewarding as i have to do some much spell checking becouse of my bad grammer and its still unreadble alot and not fun</p>
 </div>
 </div>
+
+
+
 </center>	
 </body>
 </html>
