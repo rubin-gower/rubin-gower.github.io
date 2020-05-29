@@ -252,3 +252,20 @@ position: relative;
 	margin-bottom: 50px;
 
 }
+.mainlink {
+	margin-top: 70px;
+	background-color: rgba(253, 255, 252, 0.7);
+	width: 30%;
+	height: 445px;
+	border-radius: 0px 30px 30px 30px;
+	margin-bottom: 50px;
+	position: absolute;
+
+
+}
+#tech {
+left: 15%;
+}
+#cult {
+	left: 55%;
+}
